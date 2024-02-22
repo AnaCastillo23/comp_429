@@ -19,13 +19,16 @@ public class chat {
             //boolean mainLoop = true;
 
             int choice = 0;
-            while (choice != 4) {
+            while (choice != 7) {
                 System.out.println("\n*************INTERFACE OPTIONS**************\n");
                 System.out.println("Available user interface options:");
-                System.out.println("1)myip: display IP address");
-                System.out.println("2)connect: connect to another peer");
-                System.out.println("3)send: send messages to peers");
-                System.out.println("4)Exit");
+                System.out.println("1)myIP: Display the IP address of this process");
+                System.out.println("2)myPort: Display the port in which this process is listening for incoming connections");
+                System.out.println("3)Connect: Establish a new TCP connection to the specified destination and port");
+                System.out.println("4)List: List of all the connections this process is part of");
+                System.out.println("5)Terminate: Terminate the connection");
+                System.out.println("6)send: send messages to peers");
+                System.out.println("7)Exit: Close all connections and terminate this process");
                 System.out.println("\nPlease enter your option: ");
 
 
@@ -34,24 +37,31 @@ public class chat {
 
 
                 switch (choice) {
-
                     case 1:
                         System.out.println("myIp");
                         break;
                     case 2:
-                        System.out.println("connect");
+                        System.out.println("myPort");
                         break;
                     case 3:
-                        System.out.println("send");
+                        System.out.println("Connect");
                         break;
                     case 4:
+                        System.out.println("List");
+                        break;
+                    case 5:
+                        System.out.println("terminate");
+                        break;
+                    case 6:
+                        System.out.println("send");
+                        break;
+                    case 7:
                         System.out.println("Exiting program...");
                         System.out.println("Have a good day!");
                         System.exit(0);
                         break;
-
                     default:
-                        System.out.println("Command not found. Please enter 1,2,3 or 4\n");
+                        System.out.println("Command not found. Please enter a number 1-7.\n");
                         break;
                 }
             }
