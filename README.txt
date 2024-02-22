@@ -14,6 +14,11 @@ Alonzo Garcia:
 ################################################
 STEPS ON HOW TO INSTALL ANY PREREQUISITES, BUILD PROGRAM AND RUN OUR APPLICATION:
 
+1.Open the file called _____________
+2. Open the Command Line Prompt and type "./chat 29001"
+    -The listening port that our project uses is 29001 (this is the command line parameter that project uses to run)
+
+
 
 
 
