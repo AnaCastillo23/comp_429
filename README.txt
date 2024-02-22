@@ -8,6 +8,7 @@ MEMBER'S CONTRIBUTIONS:
 
 Ana Emily Castillo Perez:
 -Create and set up project in GitHub
+-Developed interface options menu and its error checking
 
 Alonzo Garcia:
 
