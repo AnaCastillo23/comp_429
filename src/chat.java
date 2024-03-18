@@ -62,6 +62,7 @@ public class chat {
                 System.exit(0);
             }
         } catch (InputMismatchException e) {
+            //handle InputMismatchException here
             System.out.print("Command not found. Please try again.\n");
             System.exit(0);
         }
