@@ -81,7 +81,7 @@ public class chat {
                 System.exit(0);
             }
         } catch (InputMismatchException e) {
-            // THIS MAKES SURE USER HAS INPUTTED THE RIGHT TYPE OF INPUT
+            // TO MAKE SURE USER HAS INPUTTED THE RIGHT TYPE OF INPUT
             System.out.print("Command not found. Please try again.\n");
             System.exit(0);
         } catch (UnknownHostException e) {
