@@ -20,7 +20,7 @@ GitHub Link to our project for detailed individual commit contributions: https:/
 
 ################################################
 
-STEPS ON HOW TO INSTALL ANY PREREQUISITES, BUILD PROGRAM AND RUN OUR APPLICATION:
+STEPS ON HOW TO COMPILE PROGRAM AND RUN OUR APPLICATION:
 
 1.  After downloading the project folder, open the Command Prompt in your system.
 
