@@ -26,13 +26,13 @@ public class chat {
                 while (choice != 7) {
                     System.out.println("\n*************INTERFACE OPTIONS**************\n");
                     System.out.println("Available user interface options:");
-                    System.out.println("1)myIP: Display the IP address of this process");
-                    System.out.println("2)myPort: Display the port in which this process is listening for incoming connections");
-                    System.out.println("3)Connect: Establish a new TCP connection to the specified destination and port");
-                    System.out.println("4)List: List of all the connections this process is part of");
-                    System.out.println("5)Terminate: Terminate the connection");
-                    System.out.println("6)send: send messages to peers");
-                    System.out.println("7)Exit: Close all connections and terminate this process");
+                    System.out.println("1) myIP: Display the IP address of this computer");
+                    System.out.println("2) myPort: Display the port number in which this process runs on");
+                    System.out.println("3) Connect: Establish a new TCP connection to the specified destination and port");
+                    System.out.println("4) List: List of all the connections this process is part of");
+                    System.out.println("5) Terminate: Terminate the connection");
+                    System.out.println("6) send: send messages to peers");
+                    System.out.println("7) Exit: Close all connections and terminate this process");
                     System.out.println("\nPlease enter the number of your choice: ");
 
 
@@ -48,7 +48,8 @@ public class chat {
                             System.out.println("The IP address is " + myIP.getHostAddress());
                             break;
                         case 2:
-                            System.out.println("myPort");
+                            System.out.println("\nmyPort");
+                            System.out.println("The program runs on port number " + args[0]);
                             break;
                         case 3:
                             System.out.println("Connect");
