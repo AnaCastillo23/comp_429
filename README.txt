@@ -36,6 +36,6 @@ STEPS ON HOW TO COMPILE PROGRAM AND RUN OUR APPLICATION:
 
 4.  On the Command Prompt, type "javac chat.java" to compile the program.
 
-5.  On the Command Prompt, type "java chat 29001" to run the program.
+5.  On the Command Prompt, type "java chat 29001" and hit ENTER to run the program.
 
     -The listening port that our project uses is 29001, so this represents a command line argument that our project will use to run.
