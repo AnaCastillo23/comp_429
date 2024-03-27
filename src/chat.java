@@ -11,24 +11,25 @@ public class chat {
     public static void main(String[] args) {
 
 
+        //COMMENTED SOCKET CODE AS APP DOES NOT RUN WHEN IS COMMENTED OUT
         //  CREATE SERVER SOCKET (DOOR)
         /* To welcome client's contact*/
-        final ServerSocket serverSocket;
+        //final ServerSocket serverSocket;
 
         //  CLIENT CONTACTS SERVER BY:
         //  CREATE TCP CLIENT SOCKET
         /* Specify the IP address and port number of server process.
         * When created, client TCP establishes connection to server TCP.*/
-        final Socket clientSocket;
+        //final Socket clientSocket;
 
         //  TO READ DATA FROM THE clientSocket
-        final BufferedReader in;
+        //final BufferedReader in;
         //  TO WRITE DATA INTO THE clientSocket
-        final PrintWriter out;
+        //final PrintWriter out;
 
 
         //  INITIATE serverSocket
-        try {
+        /*try {
             serverSocket = new ServerSocket(29001);
             clientSocket = serverSocket.accept();
             //  TO WRITE TO THE clientSocket
@@ -37,7 +38,7 @@ public class chat {
             in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
         //INITIATE clientSocket
 
